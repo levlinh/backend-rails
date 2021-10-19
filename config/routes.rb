@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :pokemons
+      resources :pokemons, :categories
     end
   end
 end

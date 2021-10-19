@@ -5,15 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create(email: "test@example.com", password: "123456")
-categoriesList = ["fire", "water", "light", "power", "earth"]
-categoriesList.each{ |i|
-  Category.create(
-    name: i,
-    id_parent: nil,
-    description: "description #{i}"
-  )
-}
+# User.create(email: "test@example.com", password: "123456")
+# categoriesList = ["fire", "water", "light", "power", "earth"]
+# categoriesList.each{ |i|
+#   Category.create(
+#     name: i,
+#     id_parent: nil,
+#     description: "description #{i}"
+#   )
+# }
 
 10.times do |i|
   Pokemon.create(
